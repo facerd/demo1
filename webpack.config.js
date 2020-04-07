@@ -56,7 +56,6 @@ module.exports = env => {
         loader:'vue-loader'
       },{
         test:/\.(sa|sc|c)ss$/,
-        chunks: 'all',
         use: [
           process.env.NODE_ENV !== 'production'
             ? 'vue-style-loader'
